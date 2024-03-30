@@ -35,6 +35,7 @@ input {
 	--yellow-clr: #fff858;
 	--blue-clr: #0698ec;
 	--dark-green-clr: #2a6334;
+	--green-clr: #4F9652;
 	--light-green-clr: #00c43d;
 	--gray-clr: #f4f2f1;
 	--dark-gray-clr: #edeae8;
@@ -62,13 +63,13 @@ input {
 	color: var(--main-clr);
 }
 
-.btn:active {
+.btn:active, .btn.active {
 	background-color: var(--main-clr);
 	color: white;
 }
 
 .container {
-	max-width: 1024px;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 16px;
 }
@@ -349,10 +350,20 @@ input {
 	font-size: var(--fs-200);
 	line-height: var(--fs-400);
 	font-weight: 300;
-	overflow: hidden;
-	white-space: nowrap;
-	text-overflow: ellipsis;
 	color: gray;
+	display: -webkit-box; 
+	-webkit-box-orient: vertical; 
+	-webkit-line-clamp: 2; 
+	overflow: hidden; 
+	text-overflow: ellipsis; 
+}
+
+.products-desc.active p {
+	display: initial; 
+	-webkit-box-orient: initial; 
+	-webkit-line-clamp: initial; 
+	overflow: initial; 
+	text-overflow: initial; 
 }
 
 .products-desc button {
@@ -368,12 +379,6 @@ input {
 
 .products-categories {
 	margin-bottom: 16px;
-}
-
-.products-categories button:hover {
-}
-
-.products-categories button:active {
 }
 
 .products-items-wrapper {
@@ -531,7 +536,7 @@ input {
 }
 
 .product-item:hover .product-item-image-items img , .product-item:focus .product-item-image-items img {
-    width: 42px;
+    width: 50px;
 }
 
 .product-item:not(:nth-child(3n)) {
@@ -697,4 +702,53 @@ input {
 .product-item-btns button:last-child:hover,
 .product-item-btns button:last-child:focus {
 	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#support {
+	position: sticky;
+	bottom: 0;
+}
+
+.support-content-item, .support-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.support-content-item {
+	color: white;
+	border-top-left-radius: 24px;
+	border-top-right-radius: 24px;
+	padding: 4px 12px;
+	font-size: var(--fs-300);
+	font-weight: 300;
+	cursor: pointer;
+}
+
+.support-content-item:not(:last-child){
+	margin-right: 60px;
+}
+
+.support-content img {
+	width: 30px;
+	height: 30px;
+	object-fit: contain;
+	margin-right: 8px;
+}
+
+.support-content a {
+	margin-left: 8px;
+	font-weight: 500;
+}
+
+.call {
+	background-color: var(--blue-clr);
+}
+
+.whatsapp {
+	background-color: var(--dark-green-clr);
+}
+
+.message {
+	background-color: var(--green-clr);
 }
