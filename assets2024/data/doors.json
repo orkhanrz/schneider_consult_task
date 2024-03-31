@@ -1,0 +1,130 @@
+[
+	{
+		"id": 1,
+		"title": "Дверь межкомнатная Оптима Порте Турин 501.1, цвет перламутровый ясень, экошпон, глухая",
+		"price": "4890",
+		"durability": 4.5,
+		"endurance": 5,
+		"soundProof": 4.5,
+		"guarantee": true,
+        "img": "./assets2024/images/doors/door-1.png"
+	},
+	{
+		"id": 2,
+		"title": "Дверь межкомнатная складная Оптима Порте Турин 501.1 (2 полотна), цвет белый лед, экошпон, глухая",
+		"price": "9690",
+		"durability": 4.5,
+		"endurance": 5,
+		"soundProof": 4.5,
+		"guarantee": true,
+        "img": "./assets2024/images/doors/door-2.png"
+	},
+    {
+		"id": 3,
+		"title": "Дверь межкомнатная Оптима Порте Турин 502U.11, цвет белый снежный, экошпон, глухая",
+		"price": "6190",
+		"durability": 4.5,
+		"endurance": 5,
+		"soundProof": 4.5,
+		"guarantee": true,
+        "img": "./assets2024/images/doors/door-3.png"
+	},
+    {
+		"id": 4,
+		"title": "Дверь межкомнатная Оптима Порте Турин 542.2222, цвет перламутровый ясень, экошпон, стекло мателюкс",
+		"price": "6390",
+		"durability": 4.5,
+		"endurance": 4,
+		"soundProof": 4,
+		"guarantee": true,
+        "img": "./assets2024/images/doors/door-4.png"
+	},
+    {
+		"id": 5,
+		"title": "Дверь межкомнатная Сибирь Профиль Квартет ДГ, цвет белый, пленка ПВХ (искусственный шпон), глухая",
+		"price": 3790,
+        "oldPrice": 5320,
+		"durability": 4,
+		"endurance": 4,
+		"soundProof": 4.5,
+		"guarantee": false,
+        "img": "./assets2024/images/doors/door-5.png"
+	},
+    {
+		"id": 6,
+		"title": "Дверь межкомнатная Альберо (Фрегат) Стиль (Эмаль) Стиль Флэт (с врезкой под замок), цвет белый, эмаль, глухая",
+		"price": 5900,
+        "oldPrice": 6550,
+		"durability": 2,
+		"endurance": 5,
+		"soundProof": 5,
+		"guarantee": false,
+        "img": "./assets2024/images/doors/door-6.png"
+	},
+    {
+		"id": 7,
+		"title": "Дверь межкомнатная раздвижная Порте Лайн Мюнхен 26, цвет ясень 3Д, экошпон лайт, стекло матовое",
+		"price": 2790,
+        "oldPrice": 3790,
+		"durability": 3,
+		"endurance": 4.5,
+		"soundProof": 2.5,
+		"guarantee": false,
+        "img": "./assets2024/images/doors/door-7.png"
+	},
+    {
+		"id": 8,
+		"title": "Дверь межкомнатная Альберо (Фрегат) Империя Рим, цвет белый, экошпон vinyl, глухая",
+		"price": 6780,
+        "oldPrice": 7535,
+		"durability": 4.5,
+		"endurance": 5,
+		"soundProof": 4.5,
+		"guarantee": true,
+        "img": "./assets2024/images/doors/door-8.png"
+	},
+    {
+		"id": 9,
+		"title": "Дверь межкомнатная Ла Стелла 206, цвет пепельный ясень, экошпон, стекло матовое",
+		"price": 3550,
+        "oldPrice": 4130,
+		"durability": 3.5,
+		"endurance": 4,
+		"soundProof": 4.5,
+		"guarantee": true,
+        "img": "./assets2024/images/doors/door-9.png"
+	},
+    {
+		"id": 10,
+		"title": "Дверь межкомнатная раздвижная Порте Лайн Мюнхен 26, цвет ясень 3Д, экошпон лайт, стекло матовое",
+		"price": 2790,
+        "oldPrice": 3790,
+		"durability": 3,
+		"endurance": 4.5,
+		"soundProof": 2.5,
+		"guarantee": false,
+        "img": "./assets2024/images/doors/door-10.png"
+	},
+    {
+		"id": 11,
+		"title": "Дверь межкомнатная раздвижная Порте Лайн Мюнхен 26, цвет ясень 3Д, экошпон лайт, стекло матовое",
+		"price": 2790,
+        "oldPrice": 3790,
+		"durability": 3,
+		"endurance": 4.5,
+		"soundProof": 2.5,
+		"guarantee": false,
+        "img": "./assets2024/images/doors/door-11.png"
+	},
+    {
+		"id": 12,
+		"title": "Дверь межкомнатная раздвижная Порте Лайн Мюнхен 26, цвет ясень 3Д, экошпон лайт, стекло матовое",
+		"price": 2790,
+        "oldPrice": 3790,
+		"durability": 3,
+		"endurance": 4.5,
+		"soundProof": 2.5,
+		"guarantee": true,
+        "img": "./assets2024/images/doors/door-12.png"
+	}
+]
